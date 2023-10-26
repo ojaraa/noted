@@ -1,0 +1,17 @@
+.notes-title-con{
+  display: flex;
+  overflow-x: scroll;
+  gap: .5rem;
+  margin: 1rem 0 ;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.notes-title-con li{
+  padding: .5rem .8rem;
+  background-color:cadetblue;
+  border-radius: 5px;
+ text-wrap:nowrap;
+}
+.notes-title-con::-webkit-scrollbar {
+  display: none;
+}
